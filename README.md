@@ -8,4 +8,5 @@ Run your Docker container:
 After the build is successful, you can run your Docker container:
 
 You will need to add BASE_URL for the api endpoint and search_temm
+copy the below example
 docker run --rm -e BASE_URL="https://your-api-endpoint" -e SEARCH_TERM="keyword1" exon-test
